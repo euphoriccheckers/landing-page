@@ -4,3 +4,78 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+/*text*/
+
+.link,
+.signup-subtext,
+.signup-button {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.signup-title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+/* images */
+
+.header-logo {
+    max-width: 250px;
+    margin-left: -32px;
+}
+
+.signup-pic {
+    width: 600px;
+    height: 200px;
+}
+
+/*hero*/
+
+.hero {
+    background-color: #1f2937;
+}
+
+.hero-content {
+    margin: 0 15%;
+    padding-bottom: 5%;
+}
+
+/*nav bar*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+}
+
+/*signup*/
+
+.signup {
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup-info {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.signup-button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: 0;
+    padding: 8px 32px;
+}
