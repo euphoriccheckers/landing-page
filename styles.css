@@ -154,3 +154,32 @@ body {
     font-weight: bolder;
     padding-left: 10px;
 }
+
+/*action*/
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#F9FAF8;
+    padding: 5% 10%;
+}
+
+.cta-container {
+    display: flex;
+    background-color:#3882f6;
+    border-radius: 5px;
+    padding: 2.5% 5%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+}
+
+.cta-title {
+    font-weight: bolder;
+    font-size: large;
+}
+
+.cta-signup-button {
+    border: 2.5px solid #F9FAF8;
+}
