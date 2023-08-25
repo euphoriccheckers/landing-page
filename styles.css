@@ -126,3 +126,31 @@ body {
     text-align: center;
     gap: 8px;
 }
+
+/*review*/
+
+.review-container {
+    background-color: #E5E7EB;
+    padding: 5%;
+}
+
+.review,
+.quotation {
+    margin: 0px 15%;
+    padding: 1%;
+}
+
+.review {
+    font-size: 36px;
+    /*make light italic*/
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quotation {
+    display: flex;
+    justify-content: flex-end;
+    color: #1f2937;
+    font-weight: bolder;
+    padding-left: 10px;
+}
