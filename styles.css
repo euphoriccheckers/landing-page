@@ -33,7 +33,8 @@ body {
 }
 
 .signup-pic {
-    width: 600px;
+    display:flex;
+    flex-basis: 500px;
     height: 200px;
 }
 
@@ -50,7 +51,7 @@ body {
 }
 
 .hero-content {
-    margin: 0 15%;
+    margin: 0 20%;
     padding-bottom: 5%;
 }
 
@@ -89,6 +90,7 @@ body {
     border-radius: 5px;
     border: 0;
     padding: 8px 32px;
+    margin-top: 8px;
 }
 
 /*info*/
@@ -117,6 +119,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 48px;
+    flex-wrap: wrap;
 }
 
 .tile {
@@ -134,13 +137,9 @@ body {
     padding: 5%;
 }
 
-.review,
-.quotation {
-    margin: 0px 15%;
-    padding: 1%;
-}
-
 .review {
+    margin: 0px 20%;
+    margin-bottom: 2%;
     font-size: 36px;
     /*make light italic*/
     font-style: italic;
@@ -152,7 +151,7 @@ body {
     justify-content: flex-end;
     color: #1f2937;
     font-weight: bolder;
-    padding-left: 10px;
+    margin: 0 25%;
 }
 
 /*action*/
