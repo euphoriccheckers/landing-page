@@ -181,3 +181,10 @@ button {
 .callToAction button {
     border: 1px solid #F9FAF8;
 }
+
+/*footer*/
+
+.footer {
+    padding: 16px 32px;
+    text-align: center;
+}
