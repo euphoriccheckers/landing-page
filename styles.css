@@ -188,6 +188,8 @@ button {
     text-align: center;
 }
 
+/*alternate header layout for smaller screen*/
+
 @media(max-width: 768px) {
     .header .container {
         flex-direction: column;
