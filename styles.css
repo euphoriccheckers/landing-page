@@ -21,6 +21,15 @@ a {
     color: white;
 }
 
+button {
+    background: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 32px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 16px;
+}
+
 .container {
     max-width: 1100px;
     margin: 0 auto;
@@ -41,4 +50,30 @@ a {
 
 .navbar ul li {
     margin-left: 16px;
+}
+
+/*header*/
+
+.header .container {
+    display: flex;
+    max-height: 400px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.header img {
+    max-height: 300px;
+}
+
+.header h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    line-height: 1.2;
+}
+
+.header p {
+    font-size: 18px;
+    color: #E5E7EB;
 }
