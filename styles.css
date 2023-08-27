@@ -128,3 +128,32 @@ button {
     color: #1F2937;
     margin-top: 8px;
 }
+
+/*review*/
+
+.review {
+    background: #E5E7EB;
+}
+
+.review .container {
+    color: #1F2937;
+    padding: 96px 32px;
+    font-size: 36px;
+}
+
+.review p,
+.review h3 {
+    padding: 0 96px;
+}
+
+.review p {
+    padding-bottom: 8px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.review h3 {
+    text-align: end;
+    margin-right: 64px;
+    font-size: 24px;
+}
